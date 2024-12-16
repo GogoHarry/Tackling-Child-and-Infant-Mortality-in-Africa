@@ -1,91 +1,95 @@
-# Tackling-Child-and-Infant-Mortality-in-Africa
+# **Tackling Child and Infant Mortality in Africa**
 
-"C:\Users\Harrison\Desktop\10Alytics Global Data Hackathon\child.jpg"
+## **Project Overview**
+This project aims to address one of Africa's most pressing public health issues: **high infant and child mortality rates**. Through the use of **data analysis** and **predictive modeling**, this project identifies the key factors contributing to child mortality across African countries, including **socioeconomic variables**, **healthcare access**, and **immunization coverage**. By leveraging a variety of datasets, we uncover actionable insights that can drive targeted interventions to improve child health outcomes and achieve **Sustainable Development Goal (SDG) 3: Good Health and Well-being**.
 
-## Introduction
-Child and infant mortality remain pressing public health challenges in Africa. This project explores critical factors influencing mortality rates, identifies trends, and proposes actionable strategies to mitigate preventable deaths. By leveraging data analysis and predictive modeling, the project contributes to achieving Sustainable Development Goal (SDG) 3: Good Health and Well-being.
+## **Problem Statement**
+Despite significant global progress, **Africa continues to experience disproportionately high rates of child and infant mortality**, especially in sub-Saharan regions. This problem is exacerbated by:
+- **Poor healthcare access**
+- **Inadequate vaccination coverage**
+- **Socioeconomic disparities** (e.g., maternal education, household income)
 
-## Problem Statement
-Despite global progress, African nations face disproportionately high under-five mortality rates due to:
-- Inadequate healthcare access
-- Low vaccination coverage
-- Socioeconomic disparities
-- Regional inequalities
-This project provides data-driven insights to identify at-risk populations, understand contributing factors, and inform resource allocation.
+This project aims to:
+- Identify the **major determinants** of infant and child mortality in Africa.
+- Explore the **geographical disparities** in mortality rates across the continent.
+- Provide **data-driven recommendations** to guide policymakers and organizations in reducing preventable deaths.
 
-## Objectives
-1. Analyze Trends: Identify historical patterns in child and infant mortality.
-2. Investigate Contributing Factors: Assess socioeconomic, healthcare, and environmental determinants.
-3. Develop Predictive Insights: Build models to identify high-risk regions and key mortality drivers.
-4. Propose Solutions: Recommend strategies for improving maternal healthcare and vaccination coverage.
+## **Objectives**
+The primary objectives of this project are to:
+1. **Analyze Mortality Trends**: Investigate trends in infant and child mortality rates across African countries and identify patterns of growth or decline.
+2. **Examine Socioeconomic and Healthcare Factors**: Understand the correlation between factors like **vaccination coverage**, **access to skilled healthcare staff**, **health protection coverage**, and **socioeconomic status** with mortality rates.
+3. **Develop Predictive Models**: Build predictive models to identify **high-risk regions** or countries that require targeted interventions.
+4. **Provide Actionable Recommendations**: Suggest strategies for improving **healthcare infrastructure**, **maternal health**, and **vaccination coverage** in regions with high mortality rates.
 
-## Data Sources
-The analysis is based on multiple datasets, including:
-1. **Youth Mortality Rates:** Mortality rates for individuals under 15 years old.
-2. **Number of Infant Deaths:** Annual infant mortality statistics by country.
-3. **Child Mortality by Income Level:** Mortality rates across different economic tiers.
-4. **Maternal Deaths by Region:** Data on maternal health outcomes.
-5. **Global Vaccination Coverage:** Immunization coverage by disease.
-6. **Births Attended by Skilled Staff:** Percentage of births assisted by healthcare professionals.
-7. **Health Protection Coverage:** Population covered by health insurance.
-8. **Causes of Death in Children Under Five:** Major contributors to child mortality.
+## **Data Sources**
+This analysis uses several datasets from credible sources to build a comprehensive understanding of the factors influencing mortality rates:
+- **Youth Mortality Rates**: Data on deaths per 1,000 live births for children under 15 years.
+- **Number of Infant Deaths**: Data on the total number of infant deaths (age 0) for each year by country.
+- **Child Mortality by Income Level**: Data on the number of deaths of children under five years per 100 live births across different income levels.
+- **Maternal Deaths by Region**: Data on the estimated number of maternal deaths per year by country.
+- **Global Vaccination Coverage**: Immunization coverage data for various diseases.
+- **Births Attended by Skilled Staff**: Percentage of births attended by skilled healthcare staff.
+- **Health Protection Coverage**: Data on the percentage of the population covered by health insurance.
+- **Causes of Death in Children Under Five**: Major contributors to child mortality.
 
-
-## Tools and Libraries
+## **Tools and Libraries**
 The following tools and Python libraries were utilized for the analysis:
-- Libraries: pandas, numpy, matplotlib, seaborn, geopandas
-- Visualization: Geospatial analysis and data visualization techniques
-- Predictive Models: Feature importance to identify mortality drivers
+- **Libraries**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `geopandas`
+- **Visualization**: Geospatial analysis and data visualization techniques (e.g., choropleth maps, trend visualization)
+- **Predictive Models**: Feature importance analysis to identify key mortality drivers using **Random Forest** models.
 
-## Project Workflow
-**1. Data Collection and Cleaning**
-  - Loaded datasets from multiple sources
-  -  Conducted inspection for missing values, duplicates, and data consistency
-  -  Addressed null values and ensured readiness for analysis
+## **Project Workflow**
 
-**2. Exploratory Data Analysis (EDA)**
+### **1. Data Collection and Cleaning**
+The first phase involved **gathering multiple datasets** from sources like global health organizations. After that:
+- **Data cleaning** was performed by inspecting and handling missing values, duplicates, and inconsistent data.
+- **Null values** were imputed or removed, and **data normalization** was applied to ensure consistency across datasets.
 
-  - Visualized mortality trends across regions and income levels
-  - Analyzed relationships between mortality rates, healthcare access, and vaccination coverage
-  - Highlighted disparities across geographic and socioeconomic groups
+### **2. Exploratory Data Analysis (EDA)**
+During EDA:
+- **Trends in Mortality Rates**: Mortality trends across African regions and income levels were visualized using **line charts** and **bar charts**.
+- **Correlation Analysis**: The relationships between **healthcare access**, **vaccination rates**, and **mortality rates** were analyzed. **Scatter plots** and **correlation heatmaps** were used.
+- **Geographical and Socioeconomic Disparities**: Visualizations like **choropleth maps** were used to show geographical disparities, particularly in **sub-Saharan Africa**.
 
-**3. Predictive Modeling**
-  - Built models to predict high-risk regions for mortality
-  - Used feature importance analysis to identify key contributing factors
+### **3. Predictive Modeling**
+- **Random Forest Classifier**: A **Random Forest model** was built to predict high-risk regions for mortality based on various health and socioeconomic features.
+- **Feature Importance**: The model revealed that **maternal health** and **vaccination coverage** were the most significant predictors of child survival.
 
-**4. Results and Insights**
-  - Revealed high mortality rates in low-income countries with gaps in healthcare and immunization
-  - Identified maternal health and vaccination coverage as significant predictors of child survival
+### **4. Results and Insights**
+- **Key Findings**:
+  1. **Healthcare Access**: Countries with poor access to skilled healthcare staff and maternal health services have higher mortality rates.
+  2. **Vaccination Coverage**: Higher vaccination rates correlate with lower mortality rates.
+  3. **Socioeconomic Disparities**: Low-income regions exhibit significantly higher mortality rates.
+  4. **Geographical Disparities**: Sub-Saharan Africa is identified as the region with the highest mortality rates.
 
-## Results
-Key findings include:
-1. Mortality Disparities: Higher mortality rates were observed in low-income regions with limited access to skilled healthcare providers.
-2. Vaccination Gaps: Countries with low vaccination rates recorded higher child mortality.
-3. Maternal Healthcare: Improved maternal care (e.g., births attended by skilled staff) strongly correlates with reduced infant deaths.
-4. Key Drivers: Socioeconomic status, healthcare coverage, and immunization remain critical factors.
+## **Key Recommendations**
+1. **Strengthen Primary Healthcare**:
+   - Improve healthcare infrastructure and train more healthcare professionals in high-risk areas.
+2. **Increase Vaccination Coverage**:
+   - Launch targeted vaccination campaigns, especially in remote and underserved areas.
+3. **Promote Maternal Education**:
+   - Educate mothers about prenatal care, child nutrition, and the importance of vaccinations.
+4. **Address Socioeconomic Inequalities**:
+   - Increase investments in economic development to reduce poverty and improve access to healthcare.
+5. **Implement Data-Driven Policies**:
+   - Use real-time data to target high-risk regions and allocate resources effectively.
 
-## Actionable Recommendations
-**1. Increase Vaccination Coverage:**
-  - Expand immunization programs to remote and underserved areas.
-  - Implement mobile health clinics to reach marginalized communities.
+## **Future Work**
+- **AI & Machine Learning**: Further enhance predictive models using machine learning techniques.
+- **Cross-Sector Collaboration**: Engage with sectors beyond healthcare, such as education and sanitation, to address root causes.
+- **Policy Impact Evaluation**: Evaluate the long-term impact of interventions.
 
-**2. Improve Maternal Healthcare:**
-  - Train and deploy skilled healthcare professionals for antenatal care and childbirth.
-  - Strengthen maternal education on child nutrition and hygiene.
+## **Conclusion**
+This project has demonstrated the power of **data science** in addressing one of Africa's most urgent public health challenges. By identifying key determinants of mortality and providing actionable recommendations, it lays the groundwork for targeted interventions aimed at reducing preventable child and infant deaths. However, continued **collaboration**, **investment**, and **policy action** are required to achieve sustainable improvements in child health outcomes across Africa.
 
-**3. Enhance Healthcare Access:**
-  - Increase health protection coverage to ensure affordability and accessibility.
-  - Promote public-private partnerships for healthcare infrastructure development.
+## **Contact**
 
-**4. Target High-Risk Regions:**
-  - Focus resources on low-income and rural areas with elevated mortality rates.
-  - Use predictive insights for targeted interventions.
+For further inquiries or collaborations, feel free to reach out:
 
-## Future Work
-  - Data Integration: Incorporate real-time health data for better monitoring and analysis.
-  - Advanced Modeling: Explore machine learning techniques for mortality prediction.
-  - Policy Evaluation: Assess the impact of implemented interventions over time.
-  - Cross-Sector Collaboration: Include education, nutrition, and sanitation sectors in future analyses.
+- **Name**: Gogo Isaac Harrison
+- **Email**: gogoharrison@example.com
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/gogo-harrison/)
 
-## Conclusion
-This project highlights the importance of data-driven strategies in combating child and infant mortality across Africa. By addressing healthcare access, vaccination gaps, and maternal health, significant progress can be made toward achieving SDG 3. Policymakers, healthcare providers, and stakeholders are encouraged to adopt these actionable insights to foster healthier communities.
+## **License**
+
+This project is licensed under the MIT License.
