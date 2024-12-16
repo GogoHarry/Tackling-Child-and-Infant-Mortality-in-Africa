@@ -1,4 +1,5 @@
 # **Tackling Child and Infant Mortality in Africa**
+![child](https://github.com/user-attachments/assets/d6b9fad8-f74d-40a7-b827-e8edd3ab8faf)
 
 ## **Project Overview**
 This project aims to address one of Africa's most pressing public health issues: **high infant and child mortality rates**. Through the use of **data analysis** and **predictive modeling**, this project identifies the key factors contributing to child mortality across African countries, including **socioeconomic variables**, **healthcare access**, and **immunization coverage**. By leveraging a variety of datasets, we uncover actionable insights that can drive targeted interventions to improve child health outcomes and achieve **Sustainable Development Goal (SDG) 3: Good Health and Well-being**.
