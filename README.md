@@ -59,10 +59,17 @@ During EDA:
 ### **4. Results and Insights**
 - **Key Findings**:
   1. **Healthcare Access**: Countries with poor access to skilled healthcare staff and maternal health services have higher mortality rates.
-  2. **Vaccination Coverage**: Higher vaccination rates correlate with lower mortality rates.
-  3. **Socioeconomic Disparities**: Low-income regions exhibit significantly higher mortality rates.
-  4. **Geographical Disparities**: Sub-Saharan Africa is identified as the region with the highest mortality rates.
+  ![img](images/correlation.png)
 
+  3. **Vaccination Coverage**: Higher vaccination rates correlate with lower mortality rates.
+  ![vaccine](images/vaccine_child.png)
+  
+  5. **Socioeconomic Disparities**: Low-income regions exhibit significantly higher mortality rates.
+   ![child](images/child_income.png)
+     
+  7. **Geographical Disparities**: Sub-Saharan Africa is identified as the region with the highest mortality rates.
+  ![im](images/mortality_continent.png)
+  
 ## **Key Recommendations**
 1. **Strengthen Primary Healthcare**:
    - Improve healthcare infrastructure and train more healthcare professionals in high-risk areas.
@@ -88,7 +95,7 @@ This project has demonstrated the power of **data science** in addressing one of
 For further inquiries or collaborations, feel free to reach out:
 
 - **Name**: Gogo Isaac Harrison
-- **Email**: gogoharrison@example.com
+- **Email**: gogoharrison66@gmail.com
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/gogo-harrison/)
 
 ## **License**
